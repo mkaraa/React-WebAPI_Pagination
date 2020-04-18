@@ -1,0 +1,102 @@
+.divHomeContainer {
+  margin-top: 30px;
+}
+
+.authContainer {
+  width: 100%;
+  height: 500px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-bottom: 17%;
+  position: relative;
+}
+
+.authContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  opacity: 0;
+  transition: .5s ease;
+  background: #73C8A9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.authContainer:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 48px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h5 {
+  font-size: 12px;
+  text-align: right;
+  padding-left: 10px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .authContainer {
+      width: 90%;
+      height: 300px;
+    }
+  }
+  /* Tablets (portrait and landscape) ----------- */ 
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .authContainer {
+      width: 95%;
+      height: 400px;
+    }
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width : 1224px) {
+    .authContainer {
+      width: 100%;
+      height: 500px;
+    }
+   
+  }
+
+  /* Large screens ----------- */   
+  @media only screen and (min-width : 1824px) {
+    .authContainer {
+      width: 100%;
+      height: 600px;
+    }
+  
+  }
+    

@@ -1,0 +1,94 @@
+.container .divFoot {
+    width: 100%;
+    height: 100px;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.dataBossIcon {
+    width: 200px;
+    height: 50px;
+}
+
+.storeIcon {
+    width: 120px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignLeft {
+    text-align: right;
+}
+
+.per-page {
+    display: none;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .alignCenter {
+        display: block;
+    }
+    .alignRight {
+        display: block;
+    }
+    .alignLeft {
+        margin: 0 auto;
+    }
+}
+
+
+/* Tablets (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .dataBossIcon {
+        width: 150px;
+        height: 30px;
+    }
+    .socialIcon {
+        width: 20px;
+        height: 25px;
+    }
+    .storeIcon {
+        width: 90px;
+        height: 35px;
+    }
+    .alignCenter {
+        display: block;
+    }
+    .alignRight {
+        display: block;
+    }
+    .alignLeft {
+        margin: 0 auto;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {}
